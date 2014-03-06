@@ -6,4 +6,4 @@ ADD . /srv/www
 
 EXPOSE 8000
 
-CMD python -m SimpleHTTPServer 8000
+CMD python3 -m http.server 8000
